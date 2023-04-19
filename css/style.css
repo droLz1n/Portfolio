@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 .home {
     display: flex;
-    background: #020204 url("../images/perfil-linkedin-full.jpg") no-repeat right bottom;
+    background: #050004 url("../images/perfil-linkedin-full.jpg") no-repeat right bottom;
     background-size: 50% 100%;
 }
 
@@ -227,7 +227,7 @@ button:hover {
 }
 
 .card {
-    height: 400px;
+    height: 450px;
     width: 335px;
     padding: 20px 35px;
     background: #191919;
