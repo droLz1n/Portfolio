@@ -18,39 +18,46 @@
                 <h2 class="logo">Portfo<span>lio</span></h2>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#service">Serviços</a></li>
                     <li><a href="#">Skills</a></li>
-                    <li><a href="#">Entre em contato</a></li>
+                    <li><a href="#footer">Entre em contato</a></li>
                 </ul>
                 <a href="" class="btn">Projetos</a>
             </nav>
-            <div class="content">
-                <h4>Olá, meu nome é</h4>
-                <h1>Pedro Maia</h1>
-                <h3>Sou Desenvolvedor Web.</h3>
-                <div class="newslatter">
-                    <form>
-                        <input type="email" name="email" id="mail" placeholder="Coloque seu E-mail aqui!">
-                        <input type="submit" name="submit" value="Vamos começar!">
-                    </form>
-                </div>
-            </div>
         </header>
     </div>
     <main>
-        <section class="about">
-            <div class="main">
-                <img src="./images/perfil-linkedin-full.jpg" ><!--Imagem Provisória!-->
-                <div class="about-text">
-                    <h2>Sobre Mim</h2>
-                    <h5>Developer <span>& Designer</span></h5>
-                    <p>Sou um desenvolvedor web front-end. Sou capaz de criar um código limpo e semântico com um design perfeito. Também sou capaz de tornar um website cada vez mais e mais interativo com interações feitas tanto em CSS quanto em JavaScript.</p>
-                    <button type="button"> Let's Talk </button>
+        <section class="home">
+            <div class="content">
+                <div class="center">
+                    <h4>Olá, meu nome é</h4>
+                    <h1>Pedro Maia,</h1>
+                    <h3>Sou Desenvolvedor Web.</h3>
+                    <div class="newslatter">
+                        <form>
+                            <input type="email" name="email" id="mail" placeholder="Coloque seu E-mail aqui!">
+                            <input type="submit" name="submit" value="Vamos começar!" disabled>
+                        </form>
+                    </div>
                 </div>
             </div>
+            <div class="about" id="about">
+                    <div class="center__about">
+                        <!-- <img src="./images/perfil-linkedin-full.jpg"> -->
+                        <div class="about-text">
+                            <h2>Sobre Mim</h2>
+                            <h5>Developer & Designer</h5>
+                            <p>Sou um desenvolvedor web front-end. Sou capaz de</p>
+                            <p>criar um código limpo e semântico com um design</p>
+                            <p>Também sou capaz de tornar um website cada</p>
+                            <p>vez mais e mais interativo com interações feitas tanto</p>
+                            <p>em CSS quanto em JavaScript</p>
+                        </div>
+                    </div>
+            </div>
         </section>
-        <div class="service">
+        <div class="service" id="service">
             <div class="title">
                 <h2>Serviços</h2>
             </div>
@@ -92,7 +99,7 @@
             <a href="#" class="button-two">Me Contrate !</a>
         </div>
     </main>
-    <footer>
+    <footer id="footer">
         <p>Pedro Maia.</p>
         <p>Para saber mais, por favor entre em contato por meio das redes sociais abaixo.</p>
         <div class="social">
